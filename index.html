@@ -1,24 +1,43 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8">
-
-  <title>Thomas Dowdy V</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>Responsive Portfolio Landing Page</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  <header>
-	<a href="#" class="logo">Logo</a>
-	<ul>
-		<li><a href="#" class="active">Home</a></li>
-		<li><a href="#">About</a></li>	
- 		<li><a href="#">Work</a></li>
-		<li><a href="#">Contact</a></li>
-	</ul>
-  </header>
-
+  <!-- Header -->
+  <section class="banner" id="sec">.
+    <header>
+      <a href="#" class="logo">Logo</a>
+      <div id="toggle" onclick="toggle()"></div>
+    </header>
+    <div class="content">
+      <h2>Hello World,<br>I'm <span>Thomas Dowdy V</span></h2>
+      <p></p>
+      <a href="#">Know More</a>
+    </div>
+    <ul class="sci">
+      <li><a href="#"><img src="facebook.png"></a></li>
+      <li><a href="#"><img src="linkedin.png"></a></li>
+    </ul>
+  </section>
+  <div id="navigation">
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  <script type="text/javascript">
+    function toggle(){
+      var sec = document.getElementById('sec');
+      var nav = document.getElementById('navigation');
+      sec.classList.toggle('active')
+      nav.classList.toggle('active')
+    }
+  </script>
 </body>
 </html>
