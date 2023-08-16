@@ -16,4 +16,8 @@ ul
 	font-weight: bold;
 	font-variant: small-caps;
 	text-align: center;
-	
+	display: inline;
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
