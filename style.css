@@ -8,3 +8,12 @@ h1
 	font-variant: small-caps;
 	text-align: center;
 }
+
+ul
+{
+	font-family: 'Roboto';
+	font-size: 30px;
+	font-weight: bold;
+	font-variant: small-caps;
+	text-align: center;
+	
